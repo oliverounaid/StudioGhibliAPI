@@ -1,0 +1,52 @@
+body {
+  display: flex;
+  justify-content: center;
+  font-family: 'Mochiy Pop P One', sans-serif;
+  font-family: 'Shippori Mincho B1', serif;
+  background-color: #c3d7dd;
+  width: 100vw;
+}
+#film-info {
+  background-color:#2d3031;
+  border: 1px dashed #2d3031;
+  width: 600px;
+  border-radius: 50px;
+  height: 900px;
+}
+#film-info > img{
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  width: 600px;
+  min-width: 100px;
+ }
+ .filmTitle {
+   padding: 20px;
+   justify-content: center;
+   display: flex;
+   flex-direction: row;
+ }
+ .filmTitle > h1 {
+   padding: 0;
+   margin: 0;
+   color:#f5f5f5;
+   font-size: 32px;
+   font-weight: 700;
+ }
+ .filmTitle > span {
+   align-self: center;
+   color: #b6b31a;
+   padding-left: 5px;
+ }
+ #film-info > p {
+  font-stretch: condensed;
+  font-size: 20px;
+  font-weight: 400;
+  width: 560px;
+  padding: 20px;
+  text-indent: 10px;
+  color:#f5f5f5;
+ }
+ #film-info > p::first-letter {
+  font-size: 150%;
+  color: #b6b31a;
+ }
